@@ -4,7 +4,6 @@ Select
 ,[ReceivedOn]
 ,[CloseDate]
 ,[Sender]
-,[ClientName]
 ,Sum([AdjustedSLA]) as Adjusted_SLA
 From [Python_Task].[dbo].[Email_SLA]
 group by [Met/Missed 1 Bus Day]
@@ -12,4 +11,4 @@ group by [Met/Missed 1 Bus Day]
 ,[ReceivedOn]
 ,[CloseDate]
 ,[Sender]
-,[ClientName]
+
